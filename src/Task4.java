@@ -2,7 +2,6 @@ import java.util.Random;
 
 public class Task4 {
     public static void main(String[] args) {
-
         var k = 1;
         var s = 0;
         while (k <= 50) {
@@ -12,7 +11,6 @@ public class Task4 {
                 System.out.println(i);
                 s = s + i;
             }
-
         }
         System.out.print(s);
         System.out.print("-сума");
